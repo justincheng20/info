@@ -1,0 +1,114 @@
+body{
+    font-size: 20;
+    
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bar{
+    margin: 5px;
+    padding: 5px;
+    border: solid white;
+    border-width: 0 5px;
+   
+    
+
+}
+
+#bar1{
+   
+    border-left-color: red;
+    
+}
+
+#bar2{
+    
+    border-left-color:lightgreen;
+    
+}
+
+#bar3{
+    
+    border-left-color: brown;
+    
+}
+#bar4{
+    
+    border-left-color: tan;
+   
+}
+
+#intro{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid white;
+    border-width: 0 20px;
+    border-left-color: red;
+    
+}
+
+.green{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid white;
+    border-width: 0 20px;
+    border-left-color:lightgreen;
+}
+
+.brown{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid white;
+    border-width: 0 20px;
+    border-left-color: brown;
+}
+
+.tan{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid white;
+    border-width: 0 20px;
+    border-left-color:tan;
+}
+
+
+
+
+nav > a{
+    font-size: 150%;
+   
+}
+
+div{
+    margin: 30px;
+}
+
+
+.heading{
+    text-align: center;
+}
+
+
