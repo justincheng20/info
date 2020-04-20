@@ -1,75 +1,67 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Personal Website</title>
-    <link rel="stylesheet" href="style.css">
-    <nav id="navbar">
-        <a class="bar" id="bar1" href="#home">Home</a>
-        <a class="bar" id="bar2" href="#about">About</a>
-        <a class="bar" id="bar3" href="#contact">Contact</a>
-        <a class="bar" id="bar4" href="#other">Other</a>
-        
-    </nav>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <sec id="home">
-        
-        <p id="intro"> Hello, welcome to my website! I'm Justin! I'm from San Francisco (where I currently still live). 
-            I attended New York University, where I majored in Mathematics, and I currently work for a worker's compensation 
-            company as a Document Management Specialist.
-        </p>
-        
-    </sec>
-    <sec id="about" class="heading">
-        <h3 class="green">About</h3>
-        <div class = "green" id="resume">Here is my resume: <a href="res.pdf" download="res.pdf">Download</a></div>
-        
-    </sec>
-    <sec id="contact" class="heading">
-        <h3 class="brown">Contact</h3>
-        <div class="brown" id="email">Email: justincheng20@gmail.com</div>
-    </sec>
-        
-        
-    <sec id="other" class="heading">
-        <h3 class="tan">Other</h3>
-        
-        
-    </sec>
-    <sec id="banhmi" class="chart">
-        <p id = "chartDesc" class="tan"> Here is a handy chart recording various Vietnamese sandwiches I have tried throughout the city (so far):</p>
-        <div class="tan">
-        <table id="chart"  border="1" align="center">
-            <th><b>San Francisco Banh Mi Chart</b></th>
-            <tr>
-                <td><b>Restaurant Name</b></td>
-                <td><b>Sandwich Name</b></td>
-                <td><b>Cost</b></td>
-                <td><b>Tastes Like This Type of Music</b></td>
-            </tr>
-            <tr>
-                <td>Banh Mi King</td>
-                <td>Traditional Banh Mi</td>
-                <td>$8.50 plus tax</td>
-                <td>80's Synthpop</td>
-            </tr>
-            <tr>
-                <td>Les Croissants</td>
-                <td>Combo</td>
-                <td>8.50 no tax</td>
-                <td>90's Lo-Fi Indie Rock</td>
-            </tr>
-            <tr>
-                <td>Bamboo Asia</td>
-                <td>Firebird</td>
-                <td>$9</td>
-                <td>Acid House</td>
-            </tr>
-            
-        </table>
+  <p id="bio" class="text">Hi, welcome to my website! I'm Justin! I'm from San Francisco (where I currently still live).
+    I attended New York
+    University, where I majored in Mathematics, minored in Computer Science, and studied abroad in Berlin in 2016.
+    I last worked for a worker's compensation company as a Document Management Specialist, and I am currently a student
+    at Rithm, a full stack programming bootcamp. In my spare time I enjoy listening to late 70s and 80s independent
+    music and watching Stanley Kubrick films.</p>
+  <div id="details">
+    <div>
+      <h1 class="mainHeader">Portfolio</h1>
+      <div class="project">
+        <h3 class="subHeader">Warbler</h3>
+        <div class="text">
+          <div class="desc">Twitter clone built using Bootstrap and Flask</div>
+          <div><a href="https://r14-warbler.herokuapp.com">Link</a></div>
+          <div><a href="https://github.com/GroverW/warbler">Repository*</a></div>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3 class="subHeader">Jobly</h3>
+        <div class="text">
+          <div class="desc">Back end for a Job posting site </div>
+          <div><br></div>
+          <div><a href="https://github.com/justincheng20/jobly">Repository</a></div>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3 class="subHeader">Jump Off Campus</h3>
+        <div class="text">
+          <div class="desc">A housing website for college students. I worked on updating the site into Rails 5. </div>
+          <div><a href="https://www.jumpoffcampus.com/">Link</a> (To old site)</div>
+          <div>Repository is private.</div>
+        </div>
+      </div>
+
+      <div class="text note">*I often worked in a pair programming setup where everything was done togther; so I am not
+        the repository owner.
+      </div>
+
+
     </div>
-    </sec>
+
+    <div id="links" class="text">
+      <h1 class="mainHeader">Links</h1>
+      <div id="linksBody">
+        <div>Github: <a href="https://github.com/justincheng20">justincheng20</a></div>
+        <div>LinkedIn: <a href="https://www.linkedin.com/in/justincheng20/">justincheng20</a></div>
+        <div>Email: justincheng20@gmail.com</a></div>
+        <div>Resume: <a href="jchengResume.pdf">Download</a></div>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>

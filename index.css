@@ -1,0 +1,81 @@
+body{
+  background-color: #8db1ab;
+  margin: 0px;
+}
+
+.text{ 
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
+}
+
+.mainHeader{
+  font-size: 50px;
+  margin-top: 0px;
+  padding-top: 0px;
+  border-bottom: solid 3px #8db1ab;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.subHeader{
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.project{
+  display: inline-block;
+  width: 30%;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.desc {
+  height: 50px;
+  padding-bottom: 20px;
+}
+
+.note {
+  font-style: italic;
+  font-size:16px;
+}
+
+#details{
+  margin: 0px;
+  background-color: #cee397;
+}
+
+#bio {
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+  background-color: #f2ed6f;
+}
+
+#links {  
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#linksBody{
+  margin-top: 10px;;
+}
+
+div{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  
+} 
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:visited { 
+  text-decoration: none; color: blue; 
+}
